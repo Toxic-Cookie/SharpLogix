@@ -1,0 +1,23 @@
+﻿
+################
+ PARSING RULES:
+################
+
+Variables
+=========
+Local Variables: Represented as Value / Reference Registers.
+Global Variables: Represented as Dynamic Variables.
+Literals: Represented as input nodes.
+
+Methods
+=======
+Methods will be called via impulses.
+
+Program Flow
+============
+if, for, while, etc will be interpreted literally.
+?:, ??, etc will be drive based.
+
+Component Access
+================
+Only members setup to be accessible at compile time will be accessible.
